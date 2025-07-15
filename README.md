@@ -73,11 +73,8 @@ streamlit run app.py
 
 ### 🧪 How to Use the ChatBot
 1. Type any question in the input box
-
 2. The system will read the PDFs, extract the most relevant sections using vector search, and respond using Gemini
-
 3. Sample questions you can ask:
-
 "What is the main idea of doc1?"
 
 "Compare the introduction and conclusion"
@@ -94,15 +91,9 @@ streamlit run app.py
 -You can change the number or name of the PDFs, but remember to update the filenames in the code if needed
 
 ## 🙋 Author Info
-Name: Karna
+Name: Manikandan
 
 Course: B.Tech Artificial Intelligence and Data Science
-
-Year: Final Year
-
-College: Sudarshan Engineering College
-
-Project Type: Final Year Major Project
 
 ### 🎯 Objective of the Project
 To build an intelligent chatbot capable of understanding, indexing, and answering queries from uploaded PDF files using Google's Gemini AI, with a simple and interactive frontend.
@@ -118,5 +109,3 @@ Let me know if you also want:
 - 🎞️ Demo script for viva or presentation
 - 📄 Abstract file in Word format
 - 📌 Tamil or bilingual version for local submission
-
-You're done with the README now — top quality, just like you wanted. 💪🔥
