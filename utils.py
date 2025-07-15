@@ -9,7 +9,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.embeddings import Embeddings
 
 load_dotenv()
-genai.configure(api_key=os.getenv("AIzaSyANOeZ9l8pymAcgYgpewPA1Z-eCd2MrWyE"))
+genai.configure(api_key=os.getenv("YOUR_API_KEY"))
 
 # ✅ Custom Gemini Embeddings wrapper
 class GeminiEmbeddings(Embeddings):
