@@ -46,7 +46,26 @@ Use the following command to install all dependencies:
 ```base
 pip install -r requirements.txt
 ```
-### ✅ Step 3: Run The Project
-Use the following command to Run:
+### ✅ Step 3: Get Gemini API Key
+1. Visit: https://makersuite.google.com/app/apikey
+2. Sign in with your Google account
+3. Click Create API Key
+4. Copy the key and create a file named .env in the project folder with this content:
+
+```base
+GOOGLE_API_KEY=your_api_key_here
+```
+Replace your_api_key_here with your real Gemini API key.
+
+### ✅ Step 4: Add PDF Files
+Make sure you have at least two PDF files placed in the same folder as the app:
+```base
+doc1.pdf
+doc2.pdf
+```
+You can rename or replace these files with your own.
+
+### ✅ Step 5: Start the Chatbot App
+Run the following command to launch the app:
 ```base
 streamlit run app.py
