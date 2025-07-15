@@ -69,3 +69,54 @@ You can rename or replace these files with your own.
 Run the following command to launch the app:
 ```base
 streamlit run app.py
+```
+
+### 🧪 How to Use the ChatBot
+1. Type any question in the input box
+
+2. The system will read the PDFs, extract the most relevant sections using vector search, and respond using Gemini
+
+3. Sample questions you can ask:
+
+"What is the main idea of doc1?"
+
+"Compare the introduction and conclusion"
+
+"Summarize the second document"
+
+"What are the key terms used in section 2?"
+
+📌 Notes
+-Gemini API has usage limits for free accounts
+
+-No internet-based search is used — everything is based only on the uploaded PDFs
+
+-You can change the number or name of the PDFs, but remember to update the filenames in the code if needed
+
+## 🙋 Author Info
+Name: Karna
+
+Course: B.Tech Artificial Intelligence and Data Science
+
+Year: Final Year
+
+College: Sudarshan Engineering College
+
+Project Type: Final Year Major Project
+
+### 🎯 Objective of the Project
+To build an intelligent chatbot capable of understanding, indexing, and answering queries from uploaded PDF files using Google's Gemini AI, with a simple and interactive frontend.
+
+### 🏁 Outcome
+Successfully created an end-to-end AI chatbot for PDFs
+
+Integrated Gemini's Embedding and Flash model effectively
+
+Built a user-friendly web app with real-time question answering from documents
+
+Let me know if you also want:
+- 🎞️ Demo script for viva or presentation
+- 📄 Abstract file in Word format
+- 📌 Tamil or bilingual version for local submission
+
+You're done with the README now — top quality, just like you wanted. 💪🔥
