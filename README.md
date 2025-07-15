@@ -61,5 +61,9 @@ You can download it from: https://www.python.org/downloads/
 
 Use the following command to install all dependencies:
 
-```bash
+
 pip install -r requirements.txt
+
+### ✅ Step 3: Run The Project
+streamlit run app.py
+
