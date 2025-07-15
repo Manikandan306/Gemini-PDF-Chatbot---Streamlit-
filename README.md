@@ -28,22 +28,6 @@ This chatbot is built to simulate how an AI can understand and respond based on 
 
 ---
 
-## 📁 Folder Structure
-
-chatbot/
-├── app.py # Main Streamlit app
-├── utils.py # Logic for embeddings, vectorstore, PDF loading
-├── doc1.pdf # First sample PDF (you can change this)
-├── doc2.pdf # Second sample PDF
-├── .env # API key file
-├── requirements.txt # All required libraries
-└── README.md # Project documentation (this file)
-
-
-
-
----
-
 ## 🚀 How to Run This Project
 
 Follow these steps carefully to run the Gemini PDF ChatBot on your local system.
