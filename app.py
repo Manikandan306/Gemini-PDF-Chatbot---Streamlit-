@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from utils import load_and_split_pdfs, create_vectorstore
 
 load_dotenv()
-genai.configure(api_key=os.getenv("AIzaSyANOeZ9l8pymAcgYgpewPA1Z-eCd2MrWyE"))
+genai.configure(api_key=os.getenv("YOUR_API_KEY"))
 
 st.set_page_config(page_title="Gemini PDF Chatbot", layout="wide")
 st.title("📄 Gemini PDF ChatBot")
