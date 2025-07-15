@@ -58,12 +58,11 @@ You can download it from: https://www.python.org/downloads/
 ---
 
 ### ✅ Step 2: Install Required Libraries
-
 Use the following command to install all dependencies:
-
-
+```base
 pip install -r requirements.txt
-
+```
 ### ✅ Step 3: Run The Project
+Use the following command to Run:
+```base
 streamlit run app.py
-
